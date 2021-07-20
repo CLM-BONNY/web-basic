@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입페이지실습</title>
+    <style>
+        @font-face {
+            font-family: 'ImcreSoojin';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: 'ImcreSoojin';
+            text-align: center;
+            background-image: url("images/만두.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #title {
+            font-size: 120px;
+            font-weight: bolder;
+            margin-bottom: 100px;
+            color: cornsilk;
+        }
+        .display{
+            display: flex;
+            justify-content: center;
+        }
+        .signUp {
+            font-size: 50px;
+            font-weight: bolder;
+            margin: 20px;
+            color: cornsilk;
+        }
+        .SU {
+            font-family: 'ImcreSoojin';
+            font-size: 35px;
+            margin: 30px;
+            font-weight: bolder;
+            color: dimgray;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="title">🥟만사모 회원가입🥟</p>
+    <div class="display">
+        <p class="signUp">아이디</p><br><input type="text" class="SU"><br>
+    </div>
+    <div class="display">
+        <p class="signUp">비밀번호</p><br><input type="password" class="SU"><br>
+    </div>
+    <div class="display">
+        <p class="signUp">비밀번호 재확인</p><br><input type="password" class="SU"><br>
+    </div>
+    <div class="display">
+        <p class="signUp">이름</p><br><input type="text" class="SU"><br>
+    </div>
+    <div class="display">
+        <p class="signUp">생년월일</p><br>
+        <form>
+            <select name="month" class="SU">
+                <option value="">년</option>
+                <option value="1999">1999년</option>
+                <option value="2000">2000년</option>
+                <option value="2001">2001년</option>
+                <option value="2002">2002년</option>
+            </select>
+            <select name="month" class="SU">
+                <option value="">월</option>
+                <option value="1">1월</option>
+                <option value="2">2월</option>
+                <option value="3">3월</option>
+                <option value="4">4월</option>
+                <option value="5">5월</option>
+                <option value="6">6월</option>
+                <option value="7">7월</option>
+                <option value="8">8월</option>
+                <option value="9">9월</option>
+                <option value="10">10월</option>
+                <option value="11">11월</option>
+                <option value="12">12월</option>
+            </select>
+            <select name="day" class="SU">
+                <option value="">일</option>
+                <option value="1">1일</option>
+                <option value="2">2일</option>
+                <option value="3">3일</option>
+                <option value="4">4일</option>
+                <option value="5">5일</option>
+                <option value="6">6일</option>
+                <option value="7">7일</option>
+                <option value="8">8일</option>
+                <option value="9">9일</option>
+                <option value="10">10일</option>
+                <option value="11">11일</option>
+                <option value="12">12일</option>
+                <option value="13">13일</option>
+                <option value="14">14일</option>
+                <option value="15">15일</option>
+                <option value="16">16일</option>
+                <option value="17">17일</option>
+                <option value="18">18일</option>
+                <option value="19">19일</option>
+                <option value="20">20일</option>
+                <option value="21">21일</option>
+                <option value="22">22일</option>
+                <option value="23">23일</option>
+                <option value="24">24일</option>
+                <option value="25">25일</option>
+                <option value="26">26일</option>
+                <option value="27">27일</option>
+                <option value="28">28일</option>
+                <option value="29">29일</option>
+                <option value="30">30일</option>
+                <option value="31">31일</option>
+            </select><br>
+        </form>
+    </div>
+    <div class="display">
+        <p class="signUp">성별</p><br>
+        <select name="sex" class="SU">
+            <option value="">성별</option>
+            <option value="여자">여자</option>
+            <option value="남자">남자</option>
+        </select><br>
+    </div>
+    <div class="display">
+        <p class="signUp">휴대전화</p><br>
+        <form>
+            <input type="tel" class="SU" placeholder="전화번호입력" onfocus="this.placeholder=''" onblur="this.placeholder='전화번호입력'"><button type="button" class="SU">인증번호받기</button><br>
+            <input type="text" class="SU" placeholder="인증번호를 입력하세요" onfocus="this.placeholder=''" onblur="this.placeholder='인증번호를 입력하세요'">
+        </form>
+        <br>
+    </div>
+    <div class="display">
+        <p class="signUp">좋아하는 만두 종류</p><br>
+        <form class="SU">
+            <input style='zoom:2.5;' type="checkbox" name="dumpling" value="고기만두">고기만두
+            <input style='zoom:2.5;' type="checkbox" name="dumpling" value="김치만두">김치만두
+            <input style='zoom:2.5;' type="checkbox" name="dumpling" value="김만두" checked>김만두<br>
+        </form>
+    </div>
+    <input type="submit" value="가입하기" class="SU">
+</body>
+</html>
