@@ -1,0 +1,47 @@
+@font-face {font-family: 'twaysky'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');}
+@font-face {font-family: 'Cafe24Ohsquare'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');}
+@font-face {font-family: 'KyoboHand'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');}
+#header {
+    display: flex;
+    margin: 150px;
+}
+
+.siteLogo {
+    font-family: 'twaysky';
+    margin-right: 300px;
+}
+
+#bigLogo {
+    font-size: 50px;
+}
+
+#smallLogo {
+    font-size: 30px;
+}
+
+#sns {
+    display: flex;
+    width: 100px;
+    height: 30px;
+}
+
+.logo {
+
+}
+#mainText {
+    font-family: 'Cafe24Ohsquare';
+    font-size: 70px;
+}
+
+#descript {
+    font-size: 40px;
+}
+
+#scrollText {
+    font-family: 'KyoboHand';
+}
+
+#leftFooter {
+    font-family: 'Cafe24Ohsquare';
+}
+
