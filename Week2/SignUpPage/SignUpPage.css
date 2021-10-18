@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'ImcreSoojin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'ImcreSoojin';
+    text-align: center;
+    background-image: url("dumpling.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 60px;
+    color: cornsilk;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+.signUp {
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 10px;
+    color: cornsilk;
+}
+.SU {
+    font-family: 'ImcreSoojin';
+    font-size: 25px;
+    margin: 10px;
+    font-weight: bolder;
+    color: dimgray;
+}
