@@ -3,44 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>회원가입페이지실습</title>
-    <style>
-        @font-face {
-            font-family: 'ImcreSoojin';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-        }
-        body {
-            font-family: 'ImcreSoojin';
-            text-align: center;
-            background-image: url("만두.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        #title {
-            font-size: 120px;
-            font-weight: bolder;
-            margin-bottom: 100px;
-            color: cornsilk;
-        }
-        .display{
-            display: flex;
-            justify-content: center;
-        }
-        .signUp {
-            font-size: 50px;
-            font-weight: bolder;
-            margin: 20px;
-            color: cornsilk;
-        }
-        .SU {
-            font-family: 'ImcreSoojin';
-            font-size: 35px;
-            margin: 30px;
-            font-weight: bolder;
-            color: dimgray;
-        }
-    </style>
+    <link rel="stylesheet" href="./SignUpPage.css">
 </head>
 
 <body>
@@ -129,8 +92,7 @@
     <div class="display">
         <p class="signUp">휴대전화</p><br>
         <form>
-            <input type="tel" class="SU" placeholder="전화번호입력" onfocus="this.placeholder=''" onblur="this.placeholder='전화번호입력'"><button type="button" class="SU">인증번호받기</button><br>
-            <input type="text" class="SU" placeholder="인증번호를 입력하세요" onfocus="this.placeholder=''" onblur="this.placeholder='인증번호를 입력하세요'">
+            <input type="tel" class="SU" placeholder="전화번호입력" onfocus="this.placeholder=''" onblur="this.placeholder='전화번호입력'">
         </form>
         <br>
     </div>
